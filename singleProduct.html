@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/20240604_150614.png" type="image/x-icon">
+    <title>ZASIRA - shop here</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#" class="logo"><span>Z</span><span>|</span><span>ZASIRA</span></a>
+
+        <i class="ri-menu-3-line menu"></i>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html"><i class="ri-shopping-bag-line"></i></a></li>
+            <i class="ri-arrow-right-double-fill close"></i>
+        </ul>
+    </section>
+
+    <section id="productDetails" class="section-p1">
+        <div class="singleProImage">
+            <img src="images/products/f1.jpg" alt="" width="100%" id="mainImage">
+            <div id="moreImage">
+                <div class="smallImgCntr">
+                    <img src="images/products/f5.jpg" alt="" width="100%" id="smallImage">
+                </div>
+                <div class="smallImgCntr">
+                    <img src="images/products/f2.jpg" alt="" width="100%" id="smallImage">
+                </div>
+                <div class="smallImgCntr">
+                    <img src="images/products/f3.jpg" alt="" width="100%" id="smallImage">
+                </div>
+                <div class="smallImgCntr">
+                    <img src="images/products/f4.jpg" alt="" width="100%" id="smallImage">
+                </div>
+            </div>
+        </div>
+        <div class="singleProDetails section-p1">
+            <h4>Home / T-Shirt</h4>
+            <h4>Men's Fashion T-Shirt</h4>
+            <h2 class="price">$ 123.00</h2>
+            <ul class="selectSize">
+                <h3>Select Size:</h3>
+
+                <input type="radio" name="size" id="S" checked>
+                <label for="S">S</label>
+                <input type="radio" name="size" id="M">
+                <label for="M">M</label>
+                <input type="radio" name="size" id="L">
+                <label for="L">L</label>
+                <input type="radio" name="size" id="XL">
+                <label for="XL">XL</label>
+            </ul>
+            <div class="selectQuantity">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                <div class="numberInput">
+                    <button class="increment" onclick="changeValue(1)"><i class="ri-arrow-up-s-line"></i></button>
+                    <button class="decrement" onclick="changeValue(-1)"><i class="ri-arrow-down-s-line"></i></button>
+                </div>
+                <button class="normal addToCart">Add To Cart</button>
+            </div>
+            <h3 class="prodet">Product Details</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus ut saepe mollitia id ratione,
+                est voluptates, harum molestias excepturi nam sunt, numquam cum. Nam, illum? Qui suscipit facere
+                doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus neque at
+                perspiciatis iste quos natus vel praesentium possimus optio facilis debitis earum enim placeat
+                asperiores, ipsum eligendi doloribus? Repellat.</p>
+        </div>
+    </section>
+
+    <section id="product2" class="product1 section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4>$87</h4>
+                </div>
+                <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4>$125</h4>
+                </div>
+                <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4>$140</h4>
+                </div>
+                <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4>$99</h4>
+                </div>
+                <a href="#"><i class="ri-shopping-cart-line cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- sign banner -->
+    <section id="banner-2" class="section-p1 section-m1">
+        <div class="newslatters">
+            <h4>sign up for newslatters</h4>
+            <p>Get E-mail updates about our latest shop and <a href="#">special offers.</a></p>
+        </div>
+        <div class="signup">
+            <input type="email" placeholder="Enter your email">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="#" class="logo"><span>Z</span><span>|</span><span>ZASIRA</span></a>
+            <h4>Contact</h4>
+            <a href="#"><strong>Address:</strong> Sambalpur, Odisha, India</a>
+            <a href="#"><strong>Phone:</strong> +91 8178369745 / +91 8375648290</a>
+            <a href="#"><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</a>
+
+            <h4>Follow us</h4>
+            <div class="icons">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <h3>About</h3>
+            <a href="#">About us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">terms & conditions</a>
+            <a href="#">contact us</a>
+        </div>
+        <div class="col">
+            <h3>My Account</h3>
+            <a href="#">sign in</a>
+            <a href="#">view cart</a>
+            <a href="#">my wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">help</a>
+        </div>
+        <div class="col">
+            <h3>install app</h3>
+            <a href="#">from app store or google play</a>
+            <div class="install">
+                <a href="#"><img src="images/pay/app.jpg" alt=""></a>
+                <a href="#"><img src="images/pay/play.jpg" alt=""></a>
+            </div>
+            <a href="#">secured payment gateways</a>
+            <div class="pay">
+                <a href="#"><img src="images/pay/pay.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copyright section-p1">
+        <p>© 2024 | ZASIRA - HTML CSS JS Ecommerce Template</p>
+    </section>
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
